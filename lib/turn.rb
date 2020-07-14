@@ -14,7 +14,7 @@ def turn(board)
   # if index is valid
   if valid_move?(board, index)
     # make the move for index
-    move(board, index, character)
+    move(board, index, character = "X")
   
     # show the board
     display_board(board)
