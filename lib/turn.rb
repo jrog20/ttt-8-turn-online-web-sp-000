@@ -1,7 +1,8 @@
 # convert input to index
 def input_to_index(user_input)
   user_input = user_input.to_i
-  user_input.to_i - 1
+  index = user_input.to_i - 1
+  index
 end
 
 # turn method
