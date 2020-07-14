@@ -1,8 +1,7 @@
 # convert input to index
 def input_to_index(user_input)
   user_input = user_input.to_i
-  index = user_input.to_i - 1
-  index
+  user_input.to_i - 1
 end
 
 # turn method
@@ -16,6 +15,7 @@ def turn(board)
   
   # calls input to index method
   input_to_index(user_input)
+  index = input_to_index(user_input)
   
   # if index is valid
   if valid_move?(board, index)
