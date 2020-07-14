@@ -8,7 +8,7 @@ def turn(board)
   user_input = gets.strip
   
   # calls input to index method
-  input_to_index(user_input)
+  #input_to_index(user_input)
   index = input_to_index(user_input)
   
   # if index is valid
